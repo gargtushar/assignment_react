@@ -1,0 +1,21 @@
+$bgcolor: lightblue;
+$textcolor: black;
+$fontsize: 18px;
+
+.App {
+  color: $textcolor;
+  font-size: $fontsize;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.festival {
+  background-image: url('/assets/images/nyc-bg.jpg');
+  padding: 0;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  height: 190px;
+  background-size: cover;
+}
